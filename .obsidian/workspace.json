@@ -85,6 +85,36 @@
         "type": "tabs",
         "children": [
           {
+            "id": "df071b565dc104b4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "note/今天星期几.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "今天星期几 的大纲"
+            }
+          },
+          {
+            "id": "dfc3903f7838fc5b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
             "id": "f7675c8f985bec5b",
             "type": "leaf",
             "state": {
@@ -114,42 +144,12 @@
               "icon": "links-going-out",
               "title": "出链"
             }
-          },
-          {
-            "id": "dfc3903f7838fc5b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "f3d71eddbfc65ca4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,8 +162,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "9033123849021f84",
+  "active": "f7e0c277a9ddfa67",
   "lastOpenFiles": [
+    "note/今天星期几.md",
+    "note/默认话题.md",
+    "note/日常问候.md",
     "未命名.canvas",
     "2025-03-28.md",
     "diary",
