@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9fe0d2836e4bb698",
+        "id": "105d7599c502338d",
         "type": "tabs",
         "children": [
           {
-            "id": "a3c1dfe5e8caf18d",
+            "id": "9033123849021f84",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -155,14 +155,18 @@
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
+      "command-palette:打开命令面板": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "a3c1dfe5e8caf18d",
+  "active": "9033123849021f84",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "2025-03-28.md",
+    "diary",
     "note",
     "asset/image/common/logo/001.png",
     "asset/image/common/001.png",
@@ -179,8 +183,6 @@
     "asset",
     "杂物间/图片/公共/logo.png",
     "杂物间/图片/公共",
-    "杂物间/图片",
-    "杂物间",
     "百宝阁/图片/公共/logo.png"
   ]
 }
