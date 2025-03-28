@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e68da8f0b7dc18bc",
+        "id": "9fe0d2836e4bb698",
         "type": "tabs",
         "children": [
           {
-            "id": "1e6deedfacdbc084",
+            "id": "a3c1dfe5e8caf18d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -161,8 +161,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f7e0c277a9ddfa67",
+  "active": "a3c1dfe5e8caf18d",
   "lastOpenFiles": [
+    "note",
     "asset/image/common/logo/001.png",
     "asset/image/common/001.png",
     "asset/image/common/1.png",
