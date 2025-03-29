@@ -33,12 +33,14 @@ tags:
 	- 笔记重组
 	-  关系图谱
 	- 工作区
+	- 模板
 -  第三方插件
 	-  Advanced Tables
+	- QuickAdd
 ### 07.主题
 1. 下载主题
 2. 安装Style Settings插件
-3. css代码片段
+3. CSS代码片段
 
 ### 99.快捷键
 

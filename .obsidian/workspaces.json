@@ -1,17 +1,17 @@
 {
   "workspaces": {
-    "基本": {
+    "步知处": {
       "main": {
         "id": "309dfbe5881d3e1f",
         "type": "split",
         "children": [
           {
-            "id": "fe3412aa52c39d25",
+            "id": "a09680ffe3533dc3",
             "type": "tabs",
-            "dimension": 10.698425514735566,
+            "dimension": 12.548562548562547,
             "children": [
               {
-                "id": "79da54989bc6639c",
+                "id": "62f35b9fde31610a",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
@@ -25,12 +25,13 @@
                   "title": "001 Markdown 的大纲"
                 }
               }
-            ]
+            ],
+            "stacked": true
           },
           {
             "id": "9c8f4e888294bf16",
             "type": "tabs",
-            "dimension": 42.188130803391196,
+            "dimension": 46.42579642579643,
             "children": [
               {
                 "id": "5fe888c7be55690c",
@@ -47,12 +48,13 @@
                 },
                 "group": "16eb01716e2f1aef"
               }
-            ]
+            ],
+            "stacked": true
           },
           {
             "id": "34607fda6c0e85af",
             "type": "tabs",
-            "dimension": 47.113443681873235,
+            "dimension": 41.02564102564102,
             "children": [
               {
                 "id": "bea8fe47b4cb2f16",
@@ -61,15 +63,46 @@
                   "type": "markdown",
                   "state": {
                     "file": "note/步知处/学习笔记/001 Markdown.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "source": false
                   },
                   "icon": "lucide-file",
                   "title": "001 Markdown"
                 },
                 "group": "16eb01716e2f1aef"
+              },
+              {
+                "id": "0d1dce37dc1fe5d7",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "chat-view",
+                  "state": {
+                    "file": "chats/私人助理.md"
+                  },
+                  "pinned": true,
+                  "icon": "message-square",
+                  "title": "私人助理"
+                }
+              },
+              {
+                "id": "ab4a8f9917228031",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://kimi.moonshot.cn/chat/empty",
+                    "title": "Kimi - 会推理解析，能深度思考的AI助手",
+                    "mode": "webview"
+                  },
+                  "pinned": true,
+                  "icon": "globe-2",
+                  "title": "Kimi - 会推理解析，能深度思考的AI助手"
+                }
               }
-            ]
+            ],
+            "stacked": true
           }
         ],
         "direction": "vertical"
@@ -156,7 +189,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 457
+        "width": 360
       },
       "right": {
         "id": "bbfb44bd7dee974e",
@@ -165,7 +198,7 @@
           {
             "id": "1106ff4d5c046d5b",
             "type": "tabs",
-            "dimension": 35.093815149409316,
+            "dimension": 35.09381514940931,
             "children": [
               {
                 "id": "292b177884594064",
@@ -182,7 +215,7 @@
           {
             "id": "3c4907176e99dedd",
             "type": "tabs",
-            "dimension": 30.92425295343989,
+            "dimension": 30.924252953439886,
             "children": [
               {
                 "id": "233ba5d40caae9b4",
@@ -226,7 +259,7 @@
           {
             "id": "ea9e9f9e98641a2e",
             "type": "tabs",
-            "dimension": 17.164697706740792,
+            "dimension": 17.16469770674079,
             "children": [
               {
                 "id": "1532506c9dc94118",
@@ -247,7 +280,7 @@
           {
             "id": "82b063471c5b7435",
             "type": "tabs",
-            "dimension": 16.81723419041001,
+            "dimension": 16.817234190410005,
             "children": [
               {
                 "id": "f7675c8f985bec5b",
@@ -281,17 +314,15 @@
           "daily-notes:打开/创建今天的日记": false,
           "canvas:新建白板": false,
           "random-note:开始漫游笔记": false,
-          "audio-recorder:开始/结束录音": false,
           "graph:查看关系图谱": false,
           "templates:插入模板": false,
           "workspaces:管理工作区布局": false,
-          "zk-prefixer:创建时间戳笔记": false,
-          "markdown-importer:打开 Markdown 格式转换器": false
+          "smart-second-brain:打开 S2B 聊天": false
         }
       },
-      "active": "ba728eea3dc54348",
-      "mtime": "2025-03-30T00:07:53+08:00"
+      "active": "5fe888c7be55690c",
+      "mtime": "2025-03-30T01:48:04+08:00"
     }
   },
-  "active": "基本"
+  "active": "步知处"
 }

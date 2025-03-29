@@ -3,5 +3,19 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "note",
   "showLineNumber": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "spellcheck": false,
+  "autoPairMarkdown": true,
+  "smartIndentList": true,
+  "useTab": true,
+  "showInlineTitle": true,
+  "autoPairBrackets": true,
+  "vimMode": false,
+  "rightToLeft": false,
+  "foldIndent": true,
+  "foldHeading": true,
+  "showIndentGuide": true,
+  "strictLineBreaks": false,
+  "propertiesInDocument": "visible",
+  "focusNewTab": true
 }

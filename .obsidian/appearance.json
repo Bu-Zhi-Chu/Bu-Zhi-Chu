@@ -2,6 +2,10 @@
   "cssTheme": "AnuPpuccin",
   "accentColor": "",
   "enabledCssSnippets": [
-    "extended-colorschemes"
-  ]
+    "extended-colorschemes",
+    "Bu"
+  ],
+  "showViewHeader": false,
+  "showRibbon": true,
+  "nativeMenus": false
 }
