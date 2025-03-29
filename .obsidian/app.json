@@ -1,5 +1,7 @@
 {
   "promptDelete": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "note"
+  "newFileFolderPath": "note",
+  "showLineNumber": false,
+  "readableLineLength": false
 }

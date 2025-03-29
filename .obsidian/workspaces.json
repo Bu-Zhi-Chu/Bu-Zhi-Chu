@@ -1,0 +1,297 @@
+{
+  "workspaces": {
+    "基本": {
+      "main": {
+        "id": "309dfbe5881d3e1f",
+        "type": "split",
+        "children": [
+          {
+            "id": "fe3412aa52c39d25",
+            "type": "tabs",
+            "dimension": 10.698425514735566,
+            "children": [
+              {
+                "id": "79da54989bc6639c",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "note/步知处/学习笔记/001 Markdown.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "001 Markdown 的大纲"
+                }
+              }
+            ]
+          },
+          {
+            "id": "9c8f4e888294bf16",
+            "type": "tabs",
+            "dimension": 42.188130803391196,
+            "children": [
+              {
+                "id": "5fe888c7be55690c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "note/步知处/学习笔记/001 Markdown.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "001 Markdown"
+                },
+                "group": "16eb01716e2f1aef"
+              }
+            ]
+          },
+          {
+            "id": "34607fda6c0e85af",
+            "type": "tabs",
+            "dimension": 47.113443681873235,
+            "children": [
+              {
+                "id": "bea8fe47b4cb2f16",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "note/步知处/学习笔记/001 Markdown.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "001 Markdown"
+                },
+                "group": "16eb01716e2f1aef"
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "418c62b50e6c1e08",
+        "type": "split",
+        "children": [
+          {
+            "id": "14eb9db5fafd5247",
+            "type": "tabs",
+            "dimension": 52.401433691756274,
+            "children": [
+              {
+                "id": "ba728eea3dc54348",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "15d7e2cf7d90aaac",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ]
+          },
+          {
+            "id": "972e5511d1b27dd6",
+            "type": "tabs",
+            "dimension": 22.293906810035843,
+            "children": [
+              {
+                "id": "dfc3903f7838fc5b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              }
+            ]
+          },
+          {
+            "id": "3ef4372f0f280e4d",
+            "type": "tabs",
+            "dimension": 25.30465949820789,
+            "children": [
+              {
+                "id": "a1101c8259e7d67b",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 457
+      },
+      "right": {
+        "id": "bbfb44bd7dee974e",
+        "type": "split",
+        "children": [
+          {
+            "id": "1106ff4d5c046d5b",
+            "type": "tabs",
+            "dimension": 35.093815149409316,
+            "children": [
+              {
+                "id": "292b177884594064",
+                "type": "leaf",
+                "state": {
+                  "type": "chinese-calendar-view",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "日历"
+                }
+              }
+            ]
+          },
+          {
+            "id": "3c4907176e99dedd",
+            "type": "tabs",
+            "dimension": 30.92425295343989,
+            "children": [
+              {
+                "id": "233ba5d40caae9b4",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "note/步知处/学习笔记/001 Markdown.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.7132754626224422,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "001 Markdown 的关系图"
+                }
+              }
+            ]
+          },
+          {
+            "id": "ea9e9f9e98641a2e",
+            "type": "tabs",
+            "dimension": 17.164697706740792,
+            "children": [
+              {
+                "id": "1532506c9dc94118",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "note/步知处/学习笔记/001 Markdown.md",
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-going-out",
+                  "title": "001 Markdown 的出链列表"
+                }
+              }
+            ]
+          },
+          {
+            "id": "82b063471c5b7435",
+            "type": "tabs",
+            "dimension": 16.81723419041001,
+            "children": [
+              {
+                "id": "f7675c8f985bec5b",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "note/步知处/学习笔记/001 Markdown.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": true,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "001 Markdown 的反向链接列表"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 452
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "command-palette:打开命令面板": false,
+          "switcher:打开快速切换": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "canvas:新建白板": false,
+          "random-note:开始漫游笔记": false,
+          "audio-recorder:开始/结束录音": false,
+          "graph:查看关系图谱": false,
+          "templates:插入模板": false,
+          "workspaces:管理工作区布局": false,
+          "zk-prefixer:创建时间戳笔记": false,
+          "markdown-importer:打开 Markdown 格式转换器": false
+        }
+      },
+      "active": "ba728eea3dc54348",
+      "mtime": "2025-03-30T00:07:53+08:00"
+    }
+  },
+  "active": "基本"
+}
