@@ -80,6 +80,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -280,7 +281,7 @@
       "canvas:新建白板": false
     }
   },
-  "active": "5fe888c7be55690c",
+  "active": "b7a7f37bf1ee89bb",
   "lastOpenFiles": [
     "步知处.canvas",
     "note/步知处/社团企划/001 发展构思.md",

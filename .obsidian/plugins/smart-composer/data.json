@@ -125,8 +125,8 @@
       "model": "morph-v0"
     },
     {
-      "providerId": "ollama",
       "providerType": "ollama",
+      "providerId": "ollama",
       "id": "qwen2.5:14b",
       "model": "qwen2.5:14b"
     }
@@ -175,8 +175,8 @@
       "dimension": 1024
     },
     {
-      "providerId": "ollama",
       "providerType": "ollama",
+      "providerId": "ollama",
       "id": "bge-m3:latest",
       "model": "bge-m3:latest",
       "dimension": 1024
