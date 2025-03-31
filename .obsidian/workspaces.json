@@ -8,7 +8,7 @@
           {
             "id": "a09680ffe3533dc3",
             "type": "tabs",
-            "dimension": 17.141089108910894,
+            "dimension": 16.614173228346456,
             "children": [
               {
                 "id": "62f35b9fde31610a",
@@ -31,7 +31,7 @@
           {
             "id": "9c8f4e888294bf16",
             "type": "tabs",
-            "dimension": 41.584158415841586,
+            "dimension": 45.511811023622045,
             "children": [
               {
                 "id": "5fe888c7be55690c",
@@ -54,7 +54,7 @@
           {
             "id": "34607fda6c0e85af",
             "type": "tabs",
-            "dimension": 41.274752475247524,
+            "dimension": 37.874015748031496,
             "children": [
               {
                 "id": "c2ccbb5455db6697",
@@ -72,13 +72,11 @@
                 "group": "63008f32572caa84"
               },
               {
-                "id": "dd214d385052d6a3",
+                "id": "b7a7f37bf1ee89bb",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "smtcmp-chat-view",
                   "state": {},
-                  "pinned": true,
                   "icon": "wand-sparkles",
                   "title": "Smart composer chat"
                 }
@@ -224,7 +222,7 @@
           {
             "id": "ea9e9f9e98641a2e",
             "type": "tabs",
-            "dimension": 26.52631578947368,
+            "dimension": 26.526315789473678,
             "children": [
               {
                 "id": "1532506c9dc94118",
@@ -245,7 +243,7 @@
           {
             "id": "82b063471c5b7435",
             "type": "tabs",
-            "dimension": 30.631578947368425,
+            "dimension": 30.63157894736842,
             "children": [
               {
                 "id": "f7675c8f985bec5b",
@@ -270,21 +268,22 @@
           }
         ],
         "direction": "horizontal",
-        "width": 346
+        "width": 325,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
-          "canvas:新建白板": false,
+          "smart-composer:Open smart composer": false,
           "templates:插入模板": false,
           "switcher:打开快速切换": false,
           "command-palette:打开命令面板": false,
           "graph:查看关系图谱": false,
-          "smart-composer:Open smart composer": false,
-          "workspaces:管理工作区布局": false
+          "workspaces:管理工作区布局": false,
+          "canvas:新建白板": false
         }
       },
-      "active": "c2ccbb5455db6697",
-      "mtime": "2025-03-31T14:07:01+08:00"
+      "active": "5fe888c7be55690c",
+      "mtime": "2025-03-31T14:25:24+08:00"
     }
   },
   "active": "步知处"

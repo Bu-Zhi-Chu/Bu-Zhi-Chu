@@ -6,7 +6,7 @@
       {
         "id": "a09680ffe3533dc3",
         "type": "tabs",
-        "dimension": 15.760441292356187,
+        "dimension": 16.614173228346456,
         "children": [
           {
             "id": "62f35b9fde31610a",
@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/步知处/学习笔记/001 Markdown.md",
+                "file": "note/步知处/社团企划/001 发展构思.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "001 Markdown 的大纲"
+              "title": "001 发展构思 的大纲"
             }
           }
         ],
@@ -29,7 +29,7 @@
       {
         "id": "9c8f4e888294bf16",
         "type": "tabs",
-        "dimension": 43.341213553979514,
+        "dimension": 45.51181102362205,
         "children": [
           {
             "id": "5fe888c7be55690c",
@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/步知处/学习笔记/001 Markdown.md",
+                "file": "note/步知处/社团企划/001 发展构思.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001 Markdown"
+              "title": "001 发展构思"
             },
             "group": "63008f32572caa84"
           }
@@ -52,7 +52,7 @@
       {
         "id": "34607fda6c0e85af",
         "type": "tabs",
-        "dimension": 40.8983451536643,
+        "dimension": 37.874015748031496,
         "children": [
           {
             "id": "c2ccbb5455db6697",
@@ -60,12 +60,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/步知处/学习笔记/001 Markdown.md",
+                "file": "note/步知处/社团企划/001 发展构思.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "001 Markdown"
+              "title": "001 发展构思"
             },
             "group": "63008f32572caa84"
           },
@@ -184,7 +184,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "note/步知处/学习笔记/001 Markdown.md",
+                "file": "note/步知处/社团企划/001 发展构思.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,7 +212,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "001 Markdown 的关系图"
+              "title": "001 发展构思 的关系图"
             }
           }
         ]
@@ -228,12 +228,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note/步知处/学习笔记/001 Markdown.md",
+                "file": "note/步知处/社团企划/001 发展构思.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "001 Markdown 的出链列表"
+              "title": "001 发展构思 的出链列表"
             }
           }
         ]
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note/步知处/学习笔记/001 Markdown.md",
+                "file": "note/步知处/社团企划/001 发展构思.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,14 +259,15 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "001 Markdown 的反向链接列表"
+              "title": "001 发展构思 的反向链接列表"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 346
+    "width": 325,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -281,10 +282,11 @@
   },
   "active": "5fe888c7be55690c",
   "lastOpenFiles": [
+    "步知处.canvas",
     "note/步知处/社团企划/001 发展构思.md",
+    "note/步知处/学习笔记/001 Markdown.md",
     "note/步知处/成员管理",
     "note/步知处/学习笔记/002 Obsidian.md",
-    "note/步知处/学习笔记/001 Markdown.md",
     "record/01 Daily Notes/2025-03-31.md",
     "asset/image/common/logo/001.png",
     "record/01 Daily Notes/2025-03-30.md",
@@ -304,7 +306,6 @@
     "record/未命名.md",
     "record/02 Weekly Notes",
     "record/01 Daily Notes/2025-03-01.md",
-    "未命名.canvas",
     "2025-03-30.md",
     "2025-W13.md",
     "Chats/New Chat.md",
