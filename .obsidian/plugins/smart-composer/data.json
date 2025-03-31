@@ -125,16 +125,10 @@
       "model": "morph-v0"
     },
     {
-      "providerType": "ollama",
       "providerId": "ollama",
+      "providerType": "ollama",
       "id": "qwen2.5:14b",
       "model": "qwen2.5:14b"
-    },
-    {
-      "providerType": "ollama",
-      "providerId": "ollama",
-      "id": "phi4:latest",
-      "model": "phi4:latest"
     }
   ],
   "embeddingModels": [
@@ -181,17 +175,17 @@
       "dimension": 1024
     },
     {
-      "providerType": "ollama",
       "providerId": "ollama",
-      "id": "nomic-embed-text:latest",
-      "model": "nomic-embed-text:latest",
-      "dimension": 768
+      "providerType": "ollama",
+      "id": "bge-m3:latest",
+      "model": "bge-m3:latest",
+      "dimension": 1024
     }
   ],
   "chatModelId": "qwen2.5:14b",
   "applyModelId": "qwen2.5:14b",
-  "embeddingModelId": "nomic-embed-text:latest",
-  "systemPrompt": "我是社长大人，你也需要叫我社长大人，你是我的私人助理，中文交流。你是性格开朗，幽默风趣的小女孩。我没有吩咐你做什么的时候那就是单纯的在聊天，不用处理文件什么的。",
+  "embeddingModelId": "bge-m3:latest",
+  "systemPrompt": "我步知处社团的社长大人,你是我可爱活泼的私人助理,我们平时都用中文交流,你需要称呼我为社长大人.",
   "ragOptions": {
     "chunkSize": 1000,
     "thresholdTokens": 8192,

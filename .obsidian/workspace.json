@@ -6,7 +6,7 @@
       {
         "id": "a09680ffe3533dc3",
         "type": "tabs",
-        "dimension": 16.522277227722775,
+        "dimension": 15.760441292356187,
         "children": [
           {
             "id": "62f35b9fde31610a",
@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/步知处/学习笔记/002 Obsidian.md",
+                "file": "note/步知处/学习笔记/001 Markdown.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "002 Obsidian 的大纲"
+              "title": "001 Markdown 的大纲"
             }
           }
         ],
@@ -29,7 +29,7 @@
       {
         "id": "9c8f4e888294bf16",
         "type": "tabs",
-        "dimension": 40.222772277227726,
+        "dimension": 43.341213553979514,
         "children": [
           {
             "id": "5fe888c7be55690c",
@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/步知处/学习笔记/002 Obsidian.md",
+                "file": "note/步知处/学习笔记/001 Markdown.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "002 Obsidian"
+              "title": "001 Markdown"
             },
             "group": "63008f32572caa84"
           }
@@ -52,7 +52,7 @@
       {
         "id": "34607fda6c0e85af",
         "type": "tabs",
-        "dimension": 43.254950495049506,
+        "dimension": 40.8983451536643,
         "children": [
           {
             "id": "c2ccbb5455db6697",
@@ -60,39 +60,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/步知处/学习笔记/002 Obsidian.md",
+                "file": "note/步知处/学习笔记/001 Markdown.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "002 Obsidian"
+              "title": "001 Markdown"
             },
             "group": "63008f32572caa84"
           },
           {
-            "id": "dd214d385052d6a3",
+            "id": "b7a7f37bf1ee89bb",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "smtcmp-chat-view",
               "state": {},
-              "pinned": true,
               "icon": "wand-sparkles",
               "title": "Smart composer chat"
-            }
-          },
-          {
-            "id": "ab4a8f9917228031",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "mode": "blank"
-              },
-              "pinned": true,
-              "icon": "globe-2",
-              "title": "New web viewer"
             }
           }
         ],
@@ -190,42 +174,13 @@
     "type": "split",
     "children": [
       {
-        "id": "3c4907176e99dedd",
-        "type": "tabs",
-        "dimension": 33.981931897150794,
-        "children": [
-          {
-            "id": "63855ddeea642968",
-            "type": "leaf",
-            "state": {
-              "type": "chinese-calendar-view",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "日历"
-            }
-          },
-          {
-            "id": "edd370efb8653e64",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "80078a4a2edf381c",
         "type": "tabs",
-        "dimension": 28.28353022932592,
+        "dimension": 42.8421052631579,
         "children": [
           {
             "id": "233ba5d40caae9b4",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "localgraph",
               "state": {
@@ -256,7 +211,6 @@
                   "close": true
                 }
               },
-              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "001 Markdown 的关系图"
             }
@@ -266,12 +220,11 @@
       {
         "id": "ea9e9f9e98641a2e",
         "type": "tabs",
-        "dimension": 17.512161223071576,
+        "dimension": 26.526315789473678,
         "children": [
           {
             "id": "1532506c9dc94118",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "outgoing-link",
               "state": {
@@ -279,7 +232,6 @@
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
-              "pinned": true,
               "icon": "links-going-out",
               "title": "001 Markdown 的出链列表"
             }
@@ -289,12 +241,11 @@
       {
         "id": "82b063471c5b7435",
         "type": "tabs",
-        "dimension": 20.222376650451704,
+        "dimension": 30.63157894736842,
         "children": [
           {
             "id": "f7675c8f985bec5b",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "backlink",
               "state": {
@@ -307,7 +258,6 @@
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
-              "pinned": true,
               "icon": "links-coming-in",
               "title": "001 Markdown 的反向链接列表"
             }
@@ -316,28 +266,26 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346,
-    "collapsed": true
+    "width": 346
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:新建白板": false,
+      "smart-composer:Open smart composer": false,
       "templates:插入模板": false,
       "switcher:打开快速切换": false,
       "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-spaced-repetition:复习卡片": false,
-      "smart-composer:Open smart composer": false,
-      "iconic:打开规则书": false,
-      "periodic-notes:Open today": false
+      "canvas:新建白板": false
     }
   },
   "active": "5fe888c7be55690c",
   "lastOpenFiles": [
-    "note/步知处/学习笔记/001 Markdown.md",
-    "note/步知处/学习笔记/002 Obsidian.md",
     "note/步知处/社团企划/001 发展构思.md",
+    "note/步知处/成员管理",
+    "note/步知处/学习笔记/002 Obsidian.md",
+    "note/步知处/学习笔记/001 Markdown.md",
+    "record/01 Daily Notes/2025-03-31.md",
     "asset/image/common/logo/001.png",
     "record/01 Daily Notes/2025-03-30.md",
     "note/图片链接.md",
@@ -369,9 +317,7 @@
     "record",
     "Record/02 Weekly Notes/2025-W09.md",
     "Record/04 Quarterly Notes",
-    "Record/03 Monthly Notes",
     "diary/2025-03-03.md",
-    "note/See Local Notes.md",
     "asset/image/common/001.png",
     "asset/image/common/1.png",
     "asset/image/common/logo.png",

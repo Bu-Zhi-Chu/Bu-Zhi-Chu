@@ -1,6 +1,6 @@
 {
   "workspaces": {
-    "笔记模式": {
+    "步知处": {
       "main": {
         "id": "309dfbe5881d3e1f",
         "type": "split",
@@ -8,7 +8,7 @@
           {
             "id": "a09680ffe3533dc3",
             "type": "tabs",
-            "dimension": 16.155339805825243,
+            "dimension": 17.141089108910894,
             "children": [
               {
                 "id": "62f35b9fde31610a",
@@ -31,7 +31,7 @@
           {
             "id": "9c8f4e888294bf16",
             "type": "tabs",
-            "dimension": 40.349514563106794,
+            "dimension": 41.584158415841586,
             "children": [
               {
                 "id": "5fe888c7be55690c",
@@ -54,7 +54,7 @@
           {
             "id": "34607fda6c0e85af",
             "type": "tabs",
-            "dimension": 43.49514563106796,
+            "dimension": 41.274752475247524,
             "children": [
               {
                 "id": "c2ccbb5455db6697",
@@ -64,7 +64,7 @@
                   "state": {
                     "file": "note/步知处/社团企划/001 发展构思.md",
                     "mode": "preview",
-                    "source": false
+                    "source": true
                   },
                   "icon": "lucide-file",
                   "title": "001 发展构思"
@@ -82,23 +82,8 @@
                   "icon": "wand-sparkles",
                   "title": "Smart composer chat"
                 }
-              },
-              {
-                "id": "ab4a8f9917228031",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "mode": "blank"
-                  },
-                  "pinned": true,
-                  "icon": "globe-2",
-                  "title": "New web viewer"
-                }
               }
             ],
-            "currentTab": 1,
             "stacked": true
           }
         ],
@@ -186,44 +171,24 @@
           }
         ],
         "direction": "horizontal",
-        "width": 360
+        "width": 250
       },
       "right": {
         "id": "bbfb44bd7dee974e",
         "type": "split",
         "children": [
           {
-            "id": "3c4907176e99dedd",
-            "type": "tabs",
-            "dimension": 33.981931897150794,
-            "children": [
-              {
-                "id": "63855ddeea642968",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "chinese-calendar-view",
-                  "state": {},
-                  "pinned": true,
-                  "icon": "calendar-with-checkmark",
-                  "title": "日历"
-                }
-              }
-            ]
-          },
-          {
             "id": "80078a4a2edf381c",
             "type": "tabs",
-            "dimension": 28.28353022932592,
+            "dimension": 42.8421052631579,
             "children": [
               {
                 "id": "233ba5d40caae9b4",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "note/步知处/学习笔记/001 Markdown.md",
+                    "file": "note/步知处/社团企划/001 发展构思.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -250,9 +215,8 @@
                       "close": true
                     }
                   },
-                  "pinned": true,
                   "icon": "lucide-git-fork",
-                  "title": "001 Markdown 的关系图"
+                  "title": "001 发展构思 的关系图"
                 }
               }
             ]
@@ -260,22 +224,20 @@
           {
             "id": "ea9e9f9e98641a2e",
             "type": "tabs",
-            "dimension": 17.512161223071576,
+            "dimension": 26.52631578947368,
             "children": [
               {
                 "id": "1532506c9dc94118",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "note/步知处/学习笔记/001 Markdown.md",
+                    "file": "note/步知处/社团企划/001 发展构思.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   },
-                  "pinned": true,
                   "icon": "links-going-out",
-                  "title": "001 Markdown 的出链列表"
+                  "title": "001 发展构思 的出链列表"
                 }
               }
             ]
@@ -283,16 +245,15 @@
           {
             "id": "82b063471c5b7435",
             "type": "tabs",
-            "dimension": 20.222376650451704,
+            "dimension": 30.631578947368425,
             "children": [
               {
                 "id": "f7675c8f985bec5b",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "note/步知处/学习笔记/001 Markdown.md",
+                    "file": "note/步知处/社团企划/001 发展构思.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -301,33 +262,30 @@
                     "backlinkCollapsed": true,
                     "unlinkedCollapsed": true
                   },
-                  "pinned": true,
                   "icon": "links-coming-in",
-                  "title": "001 Markdown 的反向链接列表"
+                  "title": "001 发展构思 的反向链接列表"
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 452
+        "width": 346
       },
       "left-ribbon": {
         "hiddenItems": {
           "canvas:新建白板": false,
-          "smart-composer:Open smart composer": false,
           "templates:插入模板": false,
           "switcher:打开快速切换": false,
           "command-palette:打开命令面板": false,
-          "obsidian-spaced-repetition:复习卡片": false,
           "graph:查看关系图谱": false,
-          "workspaces:管理工作区布局": false,
-          "periodic-notes:Open today": false
+          "smart-composer:Open smart composer": false,
+          "workspaces:管理工作区布局": false
         }
       },
-      "active": "63855ddeea642968",
-      "mtime": "2025-03-30T04:15:02+08:00"
+      "active": "c2ccbb5455db6697",
+      "mtime": "2025-03-31T14:07:01+08:00"
     }
   },
-  "active": "笔记模式"
+  "active": "步知处"
 }
