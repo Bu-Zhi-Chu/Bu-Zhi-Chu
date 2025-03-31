@@ -1,3 +1,11 @@
+---
+aliases:
+  - Markdown 学习指南
+data: 2025-03-29 T20:19:00
+tags:
+  - 步知处
+  - Obsidian
+---
 # Obsidian 学习笔记
 
 ## 1. 下载与安装
