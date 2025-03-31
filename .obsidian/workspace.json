@@ -6,7 +6,7 @@
       {
         "id": "a09680ffe3533dc3",
         "type": "tabs",
-        "dimension": 16.155339805825243,
+        "dimension": 22.388955582232896,
         "children": [
           {
             "id": "62f35b9fde31610a",
@@ -29,7 +29,7 @@
       {
         "id": "9c8f4e888294bf16",
         "type": "tabs",
-        "dimension": 40.349514563106794,
+        "dimension": 39.97599039615846,
         "children": [
           {
             "id": "5fe888c7be55690c",
@@ -52,7 +52,7 @@
       {
         "id": "34607fda6c0e85af",
         "type": "tabs",
-        "dimension": 43.49514563106796,
+        "dimension": 37.635054021608646,
         "children": [
           {
             "id": "c2ccbb5455db6697",
@@ -184,7 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360
+    "width": 200
   },
   "right": {
     "id": "bbfb44bd7dee974e",
@@ -198,13 +198,21 @@
           {
             "id": "63855ddeea642968",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "chinese-calendar-view",
               "state": {},
-              "pinned": true,
               "icon": "calendar-with-checkmark",
               "title": "日历"
+            }
+          },
+          {
+            "id": "edd370efb8653e64",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
             }
           }
         ]
@@ -308,24 +316,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 452
+    "width": 346,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "iconic:打开规则书": false,
-      "obsidian-memos:Thino": false,
       "canvas:新建白板": false,
-      "smart-composer:Open smart composer": false,
       "templates:插入模板": false,
       "switcher:打开快速切换": false,
       "command-palette:打开命令面板": false,
-      "obsidian-spaced-repetition:复习卡片": false,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
+      "obsidian-spaced-repetition:复习卡片": false,
+      "smart-composer:Open smart composer": false,
+      "iconic:打开规则书": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "dd214d385052d6a3",
+  "active": "5fe888c7be55690c",
   "lastOpenFiles": [
     "note/步知处/学习笔记/002 Obsidian.md",
     "note/步知处/社团企划/001 发展构思.md",
