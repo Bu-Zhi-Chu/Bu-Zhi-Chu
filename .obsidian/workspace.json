@@ -271,22 +271,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "smart-composer:Open smart composer": false,
       "templates:插入模板": false,
       "switcher:打开快速切换": false,
       "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
-      "canvas:新建白板": false
+      "canvas:新建白板": false,
+      "smart-composer:Open smart composer": false
     }
   },
-  "active": "c2ccbb5455db6697",
+  "active": "62f35b9fde31610a",
   "lastOpenFiles": [
-    "步知处.canvas",
-    "note/步知处/社团企划/001 发展构思.md",
-    "note/步知处/学习笔记/001 Markdown.md",
-    "note/步知处/成员管理",
     "note/步知处/学习笔记/002 Obsidian.md",
+    "未命名.canvas",
+    "note/步知处/学习笔记/001 Markdown.md",
+    "note/步知处/社团企划/001 发展构思.md",
+    "步知处.canvas",
+    "note/步知处/成员管理",
     "record/01 Daily Notes/2025-03-31.md",
     "asset/image/common/logo/001.png",
     "record/01 Daily Notes/2025-03-30.md",
