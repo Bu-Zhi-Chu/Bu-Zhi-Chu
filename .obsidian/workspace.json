@@ -14,13 +14,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/步知处/社团企划/001 发展构思.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "001 发展构思 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -215,7 +214,8 @@
               "title": "笔记复习序列"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "80078a4a2edf381c",
@@ -333,10 +333,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5fe888c7be55690c",
+  "active": "dd214d385052d6a3",
   "lastOpenFiles": [
-    "note/步知处/学习笔记/002 Obsidian.md",
     "note/步知处/社团企划/001 发展构思.md",
+    "note/步知处/学习笔记/002 Obsidian.md",
     "asset/image/common/logo/001.png",
     "note/步知处/学习笔记/001 Markdown.md",
     "record/01 Daily Notes/2025-03-30.md",
