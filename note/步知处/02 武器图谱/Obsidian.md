@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Markdown 学习指南
+  - Obsidian 学习笔记
 data: 2025-03-29 T20:19:00
 tags:
   - 步知处
