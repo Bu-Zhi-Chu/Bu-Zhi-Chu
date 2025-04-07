@@ -14,13 +14,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/步知处/02 武器图谱/Photoshop.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Photoshop 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -35,14 +34,10 @@
             "id": "5fe888c7be55690c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/步知处/02 武器图谱/Photoshop.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Photoshop"
+              "title": "新标签页"
             },
             "group": "63008f32572caa84"
           }
@@ -58,29 +53,14 @@
             "id": "c2ccbb5455db6697",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "note/步知处/02 武器图谱/Photoshop.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Photoshop"
+              "title": "新标签页"
             },
             "group": "63008f32572caa84"
-          },
-          {
-            "id": "b7a7f37bf1ee89bb",
-            "type": "leaf",
-            "state": {
-              "type": "smtcmp-chat-view",
-              "state": {},
-              "icon": "wand-sparkles",
-              "title": "Smart composer chat"
-            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -283,9 +263,10 @@
   },
   "active": "ba728eea3dc54348",
   "lastOpenFiles": [
+    "note/步知处/00 社团企划/001 发展构思.md",
+    "note/步知处/02 武器图谱/Photoshop.md",
     "note/步知处/02 武器图谱/Obsidian.md",
     "note/步知处/02 武器图谱/Markdown.md",
-    "note/步知处/02 武器图谱/Photoshop.md",
     "note/步知处/01 成员宿舍/06 迟风月【剪辑&动画】",
     "note/步知处/01 成员宿舍/04 缘時雨【设计&绘画】",
     "note/步知处/02 兵器库/PhotoShop.md",
@@ -296,7 +277,6 @@
     "note/步知处/02 兵器库/笔记类",
     "note/步知处/02 武器图谱",
     "未命名.canvas",
-    "note/步知处/00 社团企划/001 发展构思.md",
     "note/步知处/01 成员宿舍/01 步知处【策划&开发】/学习笔记/未命名",
     "note/步知处/01 成员宿舍/01 步知处【策划&开发】/01 自我",
     "note/步知处/01 成员宿舍/03 尽朝歌【设计&绘画】/未命名.md",
@@ -306,7 +286,7 @@
     "note/步知处/成员管理/01 步知处.md",
     "步知处.canvas",
     "record/01 Daily Notes/2025-03-31.md",
-    "asset/image/common/logo/001.png",
+    "societies/99 asset/image/common/logo/001.png",
     "record/01 Daily Notes/2025-03-30.md",
     "note/图片链接.md",
     "record/04 Quarterly Notes/2025-Q1.md",
