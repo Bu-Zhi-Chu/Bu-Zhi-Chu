@@ -16,7 +16,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "societies/21 武器图谱/Photoshop.md",
+                    "file": "societies/21 功法秘籍/Photoshop.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -39,7 +39,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "societies/21 武器图谱/Photoshop.md",
+                    "file": "societies/21 功法秘籍/Photoshop.md",
                     "mode": "source",
                     "source": false
                   },
@@ -62,7 +62,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "societies/21 武器图谱/Photoshop.md",
+                    "file": "societies/21 功法秘籍/Photoshop.md",
                     "mode": "preview",
                     "source": false
                   },
@@ -282,8 +282,8 @@
           "canvas:新建白板": false
         }
       },
-      "active": "ba728eea3dc54348",
-      "mtime": "2025-04-08T10:25:02+08:00"
+      "active": "5fe888c7be55690c",
+      "mtime": "2025-04-08T15:53:29+08:00"
     }
   },
   "active": "步知处"
