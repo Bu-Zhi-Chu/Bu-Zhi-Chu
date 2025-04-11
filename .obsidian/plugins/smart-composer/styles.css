@@ -327,7 +327,7 @@ button:not(.clickable-icon).smtcmp-chat-list-dropdown {
   white-space: nowrap;
 }
 
-.smtcmp-chat-user-input-file-badge-name-block-suffix {
+.smtcmp-chat-user-input-file-badge-name-suffix {
   color: var(--text-faint);
   flex-grow: 0;
 }
@@ -391,13 +391,7 @@ button:not(.clickable-icon).smtcmp-chat-list-dropdown {
   overflow-y: scroll;
 }
 
-.smtcmp-popover ul::-webkit-scrollbar {
-  display: none;
-}
-
 .smtcmp-popover ul {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
   padding: var(--size-4-1) 0;
 }
 
@@ -529,32 +523,14 @@ input[type='text'].smtcmp-chat-list-dropdown-item-title-input {
 }
 
 .smtcmp-code-block-header {
-  display: none;
   justify-content: space-between;
   align-items: center;
   font-size: var(--font-smallest);
-  padding: 0 var(--size-4-1) 0 0;
-}
-
-.smtcmp-code-block:hover .smtcmp-code-block-header {
-  position: absolute;
-  top: calc(var(--size-4-3) * -1);
-  right: var(--size-4-1);
-  display: flex;
-}
-
-.smtcmp-code-block.has-filename .smtcmp-code-block-header {
   display: flex;
   border-bottom: 1px solid var(--background-modifier-border);
   background-color: var(--background-primary);
   border-radius: var(--radius-s) var(--radius-s) 0 0;
   height: calc(var(--size-4-8) - var(--size-4-1));
-}
-
-.smtcmp-code-block.has-filename:hover .smtcmp-code-block-header {
-  position: inherit;
-  top: 0;
-  left: 0;
 }
 
 .smtcmp-code-block-header-filename {
@@ -563,34 +539,32 @@ input[type='text'].smtcmp-chat-list-dropdown-item-title-input {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .smtcmp-code-block-header-button {
-  display: flex;
-  gap: var(--size-4-1);
-  right: 0;
-  font-family: var(--font-interface);
-  padding: 0;
-  font-size: var(--font-small);
-  font-weight: var(--font-medium);
-  color: var(--text-muted);
-}
-
-.smtcmp-code-block.has-filename .smtcmp-code-block-header-button {
-  gap: 0;
-  overflow: hidden;
+  margin-left: auto;
   min-width: fit-content;
   height: 100%;
+  display: flex;
+  gap: 0;
+  overflow: hidden;
 }
 
-.smtcmp-code-block.has-filename .smtcmp-code-block-header-button button {
+.smtcmp-code-block-header-button button {
+  height: 100%;
+  padding: 0 var(--size-4-2);
+  display: flex;
+  gap: var(--size-4-1);
   box-shadow: none;
   border: 0;
-  padding: 0 var(--size-4-2);
   border-radius: 0;
-  background-color: var(--background-primary);
-  font-size: var(--font-medium);
-  height: 100%;
+  font-size: var(--font-small);
+  background-color: inherit;
   cursor: pointer;
 
   &:hover {
@@ -598,37 +572,19 @@ input[type='text'].smtcmp-chat-list-dropdown-item-title-input {
   }
 }
 
-.smtcmp-code-block-header-button button {
-  display: flex;
-  gap: var(--size-4-1);
-  font-size: var(--font-ui-smaller);
-}
-
 .smtcmp-code-block-content {
   margin: 0;
 }
 
+.smtcmp-code-block-obsidian-markdown {
+  padding: var(--size-4-3);
+}
+
 #smtcmp-apply-view {
-  height: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
   font-family: var(--font-interface);
-
-  .smtcmp-diff-line {
-    white-space: pre-wrap;
-    word-break: break-word;
-    display: flex;
-    align-items: start;
-    gap: var(--size-4-1);
-    color: var(--text-normal);
-    line-height: var(--line-height-normal);
-  }
-
-  .smtcmp-diff-line.added {
-    background-color: rgba(var(--color-green-rgb), 0.2);
-  }
-
-  .smtcmp-diff-line.removed {
-    background-color: rgba(var(--color-red-rgb), 0.2);
-  }
 
   .view-content {
     padding: 0;
@@ -682,10 +638,52 @@ input[type='text'].smtcmp-chat-list-dropdown-item-title-input {
     padding: 0 var(--size-4-3);
   }
 
-  .smtcmp-diff-line-actions {
+  .view-header-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+  }
+
+  .view-actions {
+    button {
+      color: var(--text-normal);
+      font-weight: var(--font-medium);
+      gap: 2px;
+    }
+  }
+
+  .smtcmp-diff-block {
+    white-space: pre-wrap;
+    word-break: break-word;
+    display: flex;
+    align-items: start;
+    gap: var(--size-4-1);
+    color: var(--text-normal);
+    line-height: var(--line-height-normal);
+  }
+
+  .smtcmp-diff-block.added {
+    background-color: rgba(var(--color-green-rgb), 0.2);
+  }
+
+  .smtcmp-diff-block.removed {
+    background-color: rgba(var(--color-red-rgb), 0.2);
+  }
+
+  .smtcmp-diff-block-container {
+    position: relative;
+    scroll-margin-top: var(--size-4-5);
+  }
+
+  .smtcmp-diff-block-actions {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(-100%);
     display: flex;
     gap: 0;
-    border-radius: 0 0 var(--radius-s) var(--radius-s);
+    border-radius: var(--radius-s) var(--radius-s) 0 0;
     overflow: hidden;
 
     button {
@@ -708,19 +706,9 @@ input[type='text'].smtcmp-chat-list-dropdown-item-title-input {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
   }
 
-  .view-header-title-container {
+  .smtcmp-diff-navigation {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex: 1;
-  }
-
-  .view-actions {
-    button {
-      color: var(--text-normal);
-      font-weight: var(--font-medium);
-      gap: 2px;
-    }
   }
 }
 
@@ -1316,4 +1304,121 @@ button.smtcmp-chat-input-model-select {
 
 .smtcmp-error-modal-buttons {
   margin-top: 1rem;
+}
+
+.smtcmp-assistant-message-metadata {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--size-4-1);
+  border-left: 2px solid var(--background-modifier-border);
+  padding-left: var(--size-4-1);
+}
+
+.smtcmp-assistant-message-metadata-content {
+  color: var(--text-muted);
+  padding-left: var(--size-4-1);
+  font-size: var(--font-ui-small);
+}
+
+.smtcmp-assistant-message-metadata-annotations {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2-1);
+}
+
+.smtcmp-assistant-message-metadata-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--size-4-1);
+  font-size: var(--font-ui-small);
+  color: var(--text-muted);
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: var(--radius-s);
+  padding: var(--size-2-3) var(--size-4-1);
+  user-select: none;
+
+  &:hover {
+    background-color: var(--background-modifier-hover);
+  }
+}
+
+.smtcmp-assistant-message-metadata-toggle-icon {
+  width: var(--size-4-4);
+  height: var(--size-4-4);
+}
+
+/* Overrides default .markdown-rendered class styles from Obsidian */
+.smtcmp-markdown-rendered {
+  &.markdown-rendered {
+    --render-scale: 1;
+    font-size: calc(var(--render-scale) * 1rem);
+    line-height: 1.5;
+
+    &.smtcmp-scale-xs {
+      --render-scale: 0.8;
+    }
+
+    &.smtcmp-scale-sm {
+      --render-scale: 0.85;
+    }
+
+    &.smtcmp-scale-base {
+      --render-scale: 1;
+    }
+
+    /* override default variables */
+    --p-spacing: calc(var(--render-scale) * 1rem);
+    --heading-spacing: calc(var(--p-spacing) * 2.5);
+    --checkbox-size: calc(var(--render-scale) * 1rem);
+    --checkbox-radius: calc(var(--render-scale) * var(--radius-s));
+
+    /* adjust list indent */
+    --list-indent: 1.5em;
+
+    blockquote {
+      padding-inline-start: calc(var(--render-scale) * 1.5rem);
+    }
+
+    pre {
+      padding: calc(var(--render-scale) * 0.75rem)
+        calc(var(--render-scale) * 1rem);
+    }
+
+    hr {
+      margin: calc(var(--render-scale) * 2rem) 0;
+    }
+
+    th,
+    td {
+      font-size: calc(var(--render-scale) * 1rem);
+      padding: calc(var(--render-scale) * 0.25rem)
+        calc(var(--render-scale) * 0.5rem);
+    }
+
+    .callout {
+      padding: calc(var(--render-scale) * 0.75rem)
+        calc(var(--render-scale) * 0.75rem) calc(var(--render-scale) * 0.75rem)
+        calc(var(--render-scale) * 1.5rem);
+    }
+
+    .callout-icon {
+      height: calc(var(--render-scale) * 1rem);
+      width: calc(var(--render-scale) * 1rem);
+    }
+  }
+
+  /* Show frontmatter which is hidden by default */
+  .frontmatter {
+    display: block !important;
+    background-color: transparent;
+    border-top: 1px solid var(--background-modifier-border);
+    border-bottom: 1px solid var(--background-modifier-border);
+  }
+
+  /* Hide copy code buttons */
+  .copy-code-button {
+    display: none !important;
+  }
 }

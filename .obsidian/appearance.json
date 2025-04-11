@@ -8,5 +8,6 @@
   "showViewHeader": false,
   "showRibbon": true,
   "nativeMenus": false,
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "theme": "moonstone"
 }
