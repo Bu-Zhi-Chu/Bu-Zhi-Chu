@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "societies/21 功法秘籍/ComfyUI.md",
+                "file": "societies/01 成员名录/07 惜春早【建模&特效】.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ComfyUI 的大纲"
+              "title": "07 惜春早【建模&特效】 的大纲"
             }
           }
         ],
@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "societies/21 功法秘籍/ComfyUI.md",
+                "file": "societies/01 成员名录/07 惜春早【建模&特效】.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ComfyUI"
+              "title": "07 惜春早【建模&特效】"
             },
             "group": "63008f32572caa84"
           }
@@ -60,12 +60,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "societies/21 功法秘籍/ComfyUI.md",
+                "file": "societies/01 成员名录/07 惜春早【建模&特效】.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ComfyUI"
+              "title": "07 惜春早【建模&特效】"
             },
             "group": "63008f32572caa84"
           },
@@ -282,9 +282,16 @@
   },
   "active": "5fe888c7be55690c",
   "lastOpenFiles": [
+    "societies/01 成员名录/07 惜春早【建模&特效】.md",
+    "societies/01 成员名录/06 迟风月【剪辑&动画】.md",
+    "societies/01 成员名录/05 莘柳亦【演唱&播音】.md",
+    "societies/01 成员名录/04 尽朝歌【编曲&混音】.md",
+    "societies/01 成员名录/03 缘時雨【设计&绘画】.md",
+    "societies/01 成员名录/02 御夕时【文案&写作】.md",
+    "societies/01 成员名录/01 步知处【策划&开发】.md",
+    "societies/21 功法秘籍/ComfyUI.md",
     "societies/21 功法秘籍/babylonjs.md",
     "societies/21 功法秘籍/Vue.md",
-    "societies/21 功法秘籍/ComfyUI.md",
     "societies/21 功法秘籍/未命名",
     "societies/21 功法秘籍/Photoshop.md",
     "societies/00 社团企划/001 发展构思.md",
@@ -314,15 +321,8 @@
     "note/步知处/02 兵器库/02 Krita.md",
     "未命名.canvas",
     "note/步知处/01 成员宿舍/03 尽朝歌【设计&绘画】/未命名.md",
-    "note/步知处/成员管理/02 御夕时.md",
-    "note/步知处/成员管理/01 步知处.md",
     "步知处.canvas",
-    "record/01 Daily Notes/2025-03-31.md",
     "societies/99 asset/image/common/logo/001.png",
-    "record/01 Daily Notes/2025-03-30.md",
-    "note/图片链接.md",
-    "record/04 Quarterly Notes/2025-Q1.md",
-    "record/02 Weekly Notes/2025-W13.md",
     "asset/image/common/001.png",
     "asset/image/common/1.png",
     "asset/image/common/logo.png",
