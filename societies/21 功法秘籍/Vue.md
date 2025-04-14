@@ -220,3 +220,114 @@ npm init vue@latest
     }
 </script>
 ```
+
+#### Class绑定
+```html
+<template>
+    <h3>Class绑定</h3>
+    <p :class="{ active: message12, fs: message12 }">Class属性增强 还可以是对象</p>
+    <p :class="message13">Class属性增强 优化对象</p>
+    <p :class="[message14, message15]">Class属性增强 数组 数组可以嵌套对象</p>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                message12: true,
+                message13: {
+                    active: true,
+                    fs: false
+                },
+                message14: 'active',
+                message15: 'fs'
+            }
+        }
+    }
+</script>
+
+<style>
+    .active {
+        color: red;
+    }
+    .fs {
+        font-size: 30px;
+    }
+</style>
+```
+
+#### Style绑定
+```html
+<template>
+    <h3>Style绑定</h3>
+    <p :style="{ color: message16, fontSize: message17 }">Style属性增强 还可以是对象</p>
+    <p :style="message18">Style属性增强 优化对象</p>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                message16: 'red',
+                message17: '30px',
+                message18: {
+                    color: 'red',
+                    fontSize: '30px'
+                }
+            }
+        }
+    }
+</script>
+```
+
+#### 监听器
+```html
+<template>
+    <h3>监听器</h3>
+    <p @click="upDataM19">{{ message19 }} 监听data内声明的响应式数据</p>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                message19: '111'
+            }
+        },
+        methods: {
+            upDataM19() {
+                this.message19 = '222'
+            }
+        },
+        watch: {
+            // 监听data内声明的响应式数据 名称必须和data内的名称一致
+            // 函数接收两个参数 newVal, oldVal
+            message19(newVal, oldVal) {
+                alert(newVal + ',' + oldVal)
+            }
+        }
+    }
+</script>
+```
+
+#### 表单输入绑定
+```html
+<template>
+    <h3>表单输入绑定</h3>
+    <form>
+        <input type="text" v-model="message20" />
+        <p>{{ message20 }}</p>
+        <!-- <input type="text" v-model.lazy="message20" /> 可以使用修饰符 -->
+    </form>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                message20: ''
+            }
+        }
+    }
+</script>
+```

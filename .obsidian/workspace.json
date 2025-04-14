@@ -6,7 +6,7 @@
       {
         "id": "a09680ffe3533dc3",
         "type": "tabs",
-        "dimension": 15.326902465166132,
+        "dimension": 13.08298001211387,
         "children": [
           {
             "id": "62f35b9fde31610a",
@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "societies/01 成员名录/07 惜春早【建模&特效】.md",
+                "file": "societies/21 功法秘籍/Vue.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "07 惜春早【建模&特效】 的大纲"
+              "title": "Vue 的大纲"
             }
           }
         ],
@@ -29,7 +29,7 @@
       {
         "id": "9c8f4e888294bf16",
         "type": "tabs",
-        "dimension": 39.87138263665595,
+        "dimension": 86.91701998788614,
         "children": [
           {
             "id": "5fe888c7be55690c",
@@ -37,46 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "societies/01 成员名录/07 惜春早【建模&特效】.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "07 惜春早【建模&特效】"
-            },
-            "group": "63008f32572caa84"
-          }
-        ],
-        "stacked": true
-      },
-      {
-        "id": "34607fda6c0e85af",
-        "type": "tabs",
-        "dimension": 44.80171489817793,
-        "children": [
-          {
-            "id": "c2ccbb5455db6697",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "societies/01 成员名录/07 惜春早【建模&特效】.md",
+                "file": "societies/21 功法秘籍/Vue.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07 惜春早【建模&特效】"
-            },
-            "group": "63008f32572caa84"
-          },
-          {
-            "id": "b7a7f37bf1ee89bb",
-            "type": "leaf",
-            "state": {
-              "type": "smtcmp-chat-view",
-              "state": {},
-              "icon": "wand-sparkles",
-              "title": "Smart composer chat"
+              "title": "Vue"
             }
           }
         ],
@@ -92,7 +58,7 @@
       {
         "id": "14eb9db5fafd5247",
         "type": "tabs",
-        "dimension": 44.109055501460574,
+        "dimension": 52.401433691756274,
         "children": [
           {
             "id": "ba728eea3dc54348",
@@ -122,7 +88,7 @@
       {
         "id": "972e5511d1b27dd6",
         "type": "tabs",
-        "dimension": 33.78773125608568,
+        "dimension": 22.293906810035843,
         "children": [
           {
             "id": "dfc3903f7838fc5b",
@@ -131,7 +97,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -144,7 +110,7 @@
       {
         "id": "3ef4372f0f280e4d",
         "type": "tabs",
-        "dimension": 22.103213242453748,
+        "dimension": 25.30465949820789,
         "children": [
           {
             "id": "a1101c8259e7d67b",
@@ -167,7 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280
+    "width": 215
   },
   "right": {
     "id": "bbfb44bd7dee974e",
@@ -184,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "societies/21 功法秘籍/Vue.md",
+                "file": "note/步知处/社团企划/001 发展构思.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,7 +178,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Vue 的关系图"
+              "title": "001 发展构思 的关系图"
             }
           }
         ]
@@ -228,12 +194,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "societies/21 功法秘籍/Vue.md",
+                "file": "note/步知处/社团企划/001 发展构思.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Vue 的出链列表"
+              "title": "001 发展构思 的出链列表"
             }
           }
         ]
@@ -249,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "societies/21 功法秘籍/Vue.md",
+                "file": "note/步知处/社团企划/001 发展构思.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +225,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Vue 的反向链接列表"
+              "title": "001 发展构思 的反向链接列表"
             }
           }
         ]
@@ -282,6 +248,8 @@
   },
   "active": "5fe888c7be55690c",
   "lastOpenFiles": [
+    "societies/00 社团企划/001 发展构思.md",
+    "societies/21 功法秘籍/Vue.md",
     "societies/01 成员名录/07 惜春早【建模&特效】.md",
     "societies/01 成员名录/06 迟风月【剪辑&动画】.md",
     "societies/01 成员名录/05 莘柳亦【演唱&播音】.md",
@@ -291,10 +259,8 @@
     "societies/01 成员名录/01 步知处【策划&开发】.md",
     "societies/21 功法秘籍/ComfyUI.md",
     "societies/21 功法秘籍/babylonjs.md",
-    "societies/21 功法秘籍/Vue.md",
     "societies/21 功法秘籍/未命名",
     "societies/21 功法秘籍/Photoshop.md",
-    "societies/00 社团企划/001 发展构思.md",
     "societies/89 homework/025 Vue3/vue-base/node_modules/@babel/helper-annotate-as-pure/README.md",
     "societies/21 功法秘籍/Obsidian.md",
     "societies/01 成员名录/07 惜春早【建模&特效】",
