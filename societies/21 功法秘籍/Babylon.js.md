@@ -6,6 +6,6 @@ tags:
   - 步知处
   - babylonjs
 ---
-# Babylonjs
+# Babylon.js
 
 ### 开发环境
