@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "societies/21 功法秘籍/Vue.md",
+                "file": "societies/21 功法秘籍/ComfyUI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Vue 的大纲"
+              "title": "ComfyUI 的大纲"
             }
           }
         ],
@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "societies/21 功法秘籍/Vue.md",
+                "file": "societies/21 功法秘籍/ComfyUI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vue"
+              "title": "ComfyUI"
             },
             "group": "63008f32572caa84"
           }
@@ -60,12 +60,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "societies/21 功法秘籍/Vue.md",
+                "file": "societies/21 功法秘籍/ComfyUI.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vue"
+              "title": "ComfyUI"
             },
             "group": "63008f32572caa84"
           },
@@ -167,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280,
-    "collapsed": true
+    "width": 280
   },
   "right": {
     "id": "bbfb44bd7dee974e",
@@ -283,10 +282,10 @@
   },
   "active": "5fe888c7be55690c",
   "lastOpenFiles": [
-    "societies/21 功法秘籍/ComfyUI.md",
     "societies/21 功法秘籍/babylonjs.md",
-    "societies/21 功法秘籍/未命名",
     "societies/21 功法秘籍/Vue.md",
+    "societies/21 功法秘籍/ComfyUI.md",
+    "societies/21 功法秘籍/未命名",
     "societies/21 功法秘籍/Photoshop.md",
     "societies/00 社团企划/001 发展构思.md",
     "societies/89 homework/025 Vue3/vue-base/node_modules/@babel/helper-annotate-as-pure/README.md",
