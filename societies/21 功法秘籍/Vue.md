@@ -247,6 +247,7 @@ npm init vue@latest
 </script>
 
 <style>
+    /* scoped 样式隔离 */
     .active {
         color: red;
     }
@@ -329,5 +330,94 @@ npm init vue@latest
             }
         }
     }
+</script>
+```
+
+#### 模板引用
+```html
+<template>
+    <h3>模板引用</h3>
+    <input type="text" v-model="message20" ref="input1" />
+    <button @click="getDom">this.$ref获取DOM节点</button>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                message20: ''
+            }
+
+        },
+
+        methods: {
+            getDom() {
+                // 获取DOM元素
+                console.log((this.$refs.input1.value = 1))
+            }
+        }
+    }
+
+</script>
+```
+
+#### 使用组件
+* 父组件
+```html
+<template>
+    <div>{{ message0 }}</div>
+    <MyComponent3 title="父组件数据" :dd="message0" />
+</template>
+<script>
+    import MyComponent3 from './MyComponent3.vue'
+    export default {
+        components: {
+            MyComponent3
+        },
+        data() {
+            return {
+                message0: '1234'
+            }
+        }
+    }
+</script>
+```
+* 子组件
+```html
+<template>
+    <div>{{ message0 }}</div>
+    <div>{{ title }}</div>
+    <div>{{ dd }}</div>
+</template>
+<script>
+    export default {
+        data() {
+            return {
+                message0: '3.0 '
+            }
+        },
+        // 接收父组件传递过来的数据
+        //高级接收 可以设置默认值 校验类型
+        // props是只读的 不能修改
+        //简单接收
+        // props: ['title', 'dd'],
+        props: {
+            title: {
+                type: String, // 字符串可以接收任何类型的数据
+                default: '默认值', // 默认值
+                required: true // 必要性
+            },
+            dd: {
+                type: Number,
+                default: 123
+            },
+            pp: {
+                type: Number,
+                default() {
+                    return [1, 2, 3] //数组和对象需要使用工厂函数返回值
+                }
+            }
+        }
+    }
 </script>
 ```

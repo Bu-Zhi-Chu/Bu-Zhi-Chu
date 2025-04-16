@@ -6,7 +6,7 @@
       {
         "id": "a09680ffe3533dc3",
         "type": "tabs",
-        "dimension": 13.08298001211387,
+        "dimension": 17.080557238037553,
         "children": [
           {
             "id": "62f35b9fde31610a",
@@ -29,10 +29,33 @@
       {
         "id": "9c8f4e888294bf16",
         "type": "tabs",
-        "dimension": 86.91701998788614,
+        "dimension": 41.974560872198666,
         "children": [
           {
             "id": "5fe888c7be55690c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "societies/21 功法秘籍/Vue.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vue"
+            },
+            "group": "63008f32572caa84"
+          }
+        ],
+        "stacked": true
+      },
+      {
+        "id": "34607fda6c0e85af",
+        "type": "tabs",
+        "dimension": 40.94488188976378,
+        "children": [
+          {
+            "id": "c2ccbb5455db6697",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,6 +66,17 @@
               },
               "icon": "lucide-file",
               "title": "Vue"
+            },
+            "group": "63008f32572caa84"
+          },
+          {
+            "id": "b7a7f37bf1ee89bb",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "Smart composer chat"
             }
           }
         ],
@@ -237,18 +271,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "smart-composer:Open smart composer": false,
       "templates:插入模板": false,
       "switcher:打开快速切换": false,
       "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false,
-      "workspaces:管理工作区布局": false,
-      "canvas:新建白板": false
+      "workspaces:管理工作区布局": false
     }
   },
   "active": "5fe888c7be55690c",
   "lastOpenFiles": [
+    "societies/89 homework/025 Vue3/vue-base/src/components/MyComponent3.vue",
+    "societies/89 homework/025 Vue3/vue-base/src/components/MyComponent2 copy.vue",
+    "societies/89 homework/025 Vue3/vue-base/src/components/MyComponent2.vue",
+    "societies/89 homework/025 Vue3/vue-base/src/components/MyComponent1 copy.vue",
+    "societies/89 homework/025 Vue3/vue-base/src/components/MyComponent1.vue",
+    "societies/21 功法秘籍/ComfyUI.md",
     "societies/00 社团企划/001 发展构思.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "societies/89 homework/025 Vue3/vue-base/node_modules/@babel/plugin-transform-typescript/README.md",
+    "societies/89 homework/025 Vue3/vue-base/node_modules/@jridgewell/resolve-uri/README.md",
+    "societies/89 homework/015 Cesium/cesium-base/Cesium-1.128/LICENSE.md",
+    "societies/89 homework/025 Vue3/vue-base/node_modules/@vue/babel-plugin-resolve-type/README.md",
     "societies/21 功法秘籍/Vue.md",
     "societies/01 成员名录/07 惜春早【建模&特效】.md",
     "societies/01 成员名录/06 迟风月【剪辑&动画】.md",
@@ -257,7 +303,6 @@
     "societies/01 成员名录/03 缘時雨【设计&绘画】.md",
     "societies/01 成员名录/02 御夕时【文案&写作】.md",
     "societies/01 成员名录/01 步知处【策划&开发】.md",
-    "societies/21 功法秘籍/ComfyUI.md",
     "societies/21 功法秘籍/babylonjs.md",
     "societies/21 功法秘籍/未命名",
     "societies/21 功法秘籍/Photoshop.md",
@@ -268,25 +313,15 @@
     "societies/01 成员名录/05 莘柳亦【演唱&播音】",
     "societies/01 成员名录/04 尽朝歌【编曲&混音】",
     "societies/01 成员名录/03 缘時雨【设计&绘画】",
-    "societies/01 成员名录/02 御夕时【文案&写作】",
-    "societies/01 成员名录/01 步知处【策划&开发】",
-    "societies/01 成员名录",
     "societies/21 武器图谱/Photoshop.md",
     "societies/21 兵器图谱/Photoshop.md",
     "societies/21 兵器图谱/Markdown.md",
     "societies/21 兵器图谱/Obsidian.md",
-    "societies/21 兵器图谱",
     "societies/89 homework/HTML/01 仿阴阳师/img/logo_b5525b7.webp",
     "societies/89 homework/HTML/01 仿阴阳师/img/icon.webp",
     "note/步知处/00 社团企划/001 发展构思.md",
     "note/步知处/02 武器图谱/Photoshop.md",
     "note/步知处/02 武器图谱/Obsidian.md",
-    "note/步知处/02 武器图谱/Markdown.md",
-    "note/步知处/02 兵器库/PhotoShop.md",
-    "note/步知处/02 兵器库/设计类/01 PS&AI.md",
-    "note/步知处/02 兵器库/02 Krita.md",
-    "未命名.canvas",
-    "note/步知处/01 成员宿舍/03 尽朝歌【设计&绘画】/未命名.md",
     "步知处.canvas",
     "societies/99 asset/image/common/logo/001.png",
     "asset/image/common/001.png",

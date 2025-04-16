@@ -273,17 +273,17 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "canvas:新建白板": false,
           "smart-composer:Open smart composer": false,
           "templates:插入模板": false,
           "switcher:打开快速切换": false,
           "command-palette:打开命令面板": false,
           "graph:查看关系图谱": false,
-          "workspaces:管理工作区布局": false,
-          "canvas:新建白板": false
+          "workspaces:管理工作区布局": false
         }
       },
       "active": "5fe888c7be55690c",
-      "mtime": "2025-04-10T11:22:47+08:00"
+      "mtime": "2025-04-14T13:38:08+08:00"
     },
     "阅读模式": {
       "main": {
@@ -524,18 +524,18 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "canvas:新建白板": false,
           "smart-composer:Open smart composer": false,
           "templates:插入模板": false,
           "switcher:打开快速切换": false,
           "command-palette:打开命令面板": false,
           "graph:查看关系图谱": false,
-          "workspaces:管理工作区布局": false,
-          "canvas:新建白板": false
+          "workspaces:管理工作区布局": false
         }
       },
       "active": "5fe888c7be55690c",
-      "mtime": "2025-04-10T11:23:15+08:00"
+      "mtime": "2025-04-14T13:38:25+08:00"
     }
   },
-  "active": "阅读模式"
+  "active": "笔记模式"
 }
