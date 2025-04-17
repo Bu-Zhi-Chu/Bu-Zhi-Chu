@@ -362,6 +362,7 @@ npm init vue@latest
 ```
 
 #### 使用组件
+#####  父组件向子组件传递数据
 * 父组件
 ```html
 <template>
@@ -382,7 +383,7 @@ npm init vue@latest
     }
 </script>
 ```
-* 子组件
+* 子组件用props 接收
 ```html
 <template>
     <div>{{ message0 }}</div>
@@ -421,3 +422,100 @@ npm init vue@latest
     }
 </script>
 ```
+
+##### 子组件向父组件传递数据
+* 父组件使用自定义事件接收
+```html
+<template>
+    <div>{{ message0 }}</div>
+    <MyComponent5 @setData="getdata" />
+</template>
+<script>
+    import MyComponent5 from './MyComponent5.vue'
+    export default {
+        components: {
+            MyComponent5
+        },
+        data() {
+            return {
+                message0: '0 0'
+            }
+        },
+        methods: {
+            getdata(data) {
+                this.message0 = data
+            }
+        }
+    }
+</script>
+```
+* 子组件用 this.$emit ()定义事件传递数据 
+```html
+<template>
+    <div @click="dianji">{{ message0 }}</div>
+</template>
+<script>
+    export default {
+        data() {
+            return {
+                message0: '0.0'
+            }
+        },
+        methods: {
+            dianji() {
+                this.message0 = '1.1'
+                // 自定义组件事件
+                this.$emit('setData', this.message0)
+            }
+        }
+    }
+</script>
+```
+##### 子组件向父组件传递数据
+* 父元素自定义事件和函数
+```html
+<template>
+    <div>{{ message0 }}</div>
+    <MyComponent7 :ddd="dataFn" />
+</template>
+<script>
+    import MyComponent7 from './MyComponent7.vue'
+    export default {
+        components: {
+            MyComponent7
+        },
+        data() {
+            return {
+                message0: ''
+            }
+        },
+        methods: {
+            dataFn(data) {
+                this.message0 = data
+            }
+        }
+    }
+</script>
+```
+* 子组件用props 接收函数利用函数传递数据
+```html
+<template>
+    <div>{{ ddd('1111') }}</div>
+</template>
+<script>
+    export default {
+        data() {
+            return {
+                message0: '0.0'
+            }
+        },
+        props: {
+            ddd: Function
+        }
+    }
+</script>
+```
+##### 透传Attributes
+* 常见的比如 class 
+* 必须是唯一根元素
+* 可以使用inheritAttrs禁用

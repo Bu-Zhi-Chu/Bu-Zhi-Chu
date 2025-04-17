@@ -6,7 +6,7 @@
       {
         "id": "a09680ffe3533dc3",
         "type": "tabs",
-        "dimension": 17.080557238037553,
+        "dimension": 19.794188861985475,
         "children": [
           {
             "id": "62f35b9fde31610a",
@@ -29,7 +29,7 @@
       {
         "id": "9c8f4e888294bf16",
         "type": "tabs",
-        "dimension": 41.974560872198666,
+        "dimension": 39.83050847457627,
         "children": [
           {
             "id": "5fe888c7be55690c",
@@ -52,7 +52,7 @@
       {
         "id": "34607fda6c0e85af",
         "type": "tabs",
-        "dimension": 40.94488188976378,
+        "dimension": 40.375302663438255,
         "children": [
           {
             "id": "c2ccbb5455db6697",
@@ -68,16 +68,6 @@
               "title": "Vue"
             },
             "group": "63008f32572caa84"
-          },
-          {
-            "id": "b7a7f37bf1ee89bb",
-            "type": "leaf",
-            "state": {
-              "type": "smtcmp-chat-view",
-              "state": {},
-              "icon": "wand-sparkles",
-              "title": "Smart composer chat"
-            }
           }
         ],
         "stacked": true
@@ -282,12 +272,17 @@
   },
   "active": "5fe888c7be55690c",
   "lastOpenFiles": [
+    "societies/89 homework/025 Vue/vue-base/src/components/MyComponent7.vue",
+    "societies/89 homework/025 Vue/vue-base/src/components/MyComponent6.vue",
+    "societies/89 homework/025 Vue/vue-base/src/components/MyComponent5 copy.vue",
+    "societies/89 homework/025 Vue/vue-base/src/components/MyComponent4 copy.vue",
+    "societies/21 功法秘籍/ComfyUI.md",
+    "societies/21 功法秘籍/Vue.md",
     "societies/89 homework/025 Vue3/vue-base/src/components/MyComponent3.vue",
     "societies/89 homework/025 Vue3/vue-base/src/components/MyComponent2 copy.vue",
     "societies/89 homework/025 Vue3/vue-base/src/components/MyComponent2.vue",
     "societies/89 homework/025 Vue3/vue-base/src/components/MyComponent1 copy.vue",
     "societies/89 homework/025 Vue3/vue-base/src/components/MyComponent1.vue",
-    "societies/21 功法秘籍/ComfyUI.md",
     "societies/00 社团企划/001 发展构思.md",
     "未命名 1.canvas",
     "未命名.canvas",
@@ -295,7 +290,6 @@
     "societies/89 homework/025 Vue3/vue-base/node_modules/@jridgewell/resolve-uri/README.md",
     "societies/89 homework/015 Cesium/cesium-base/Cesium-1.128/LICENSE.md",
     "societies/89 homework/025 Vue3/vue-base/node_modules/@vue/babel-plugin-resolve-type/README.md",
-    "societies/21 功法秘籍/Vue.md",
     "societies/01 成员名录/07 惜春早【建模&特效】.md",
     "societies/01 成员名录/06 迟风月【剪辑&动画】.md",
     "societies/01 成员名录/05 莘柳亦【演唱&播音】.md",
@@ -309,10 +303,6 @@
     "societies/89 homework/025 Vue3/vue-base/node_modules/@babel/helper-annotate-as-pure/README.md",
     "societies/21 功法秘籍/Obsidian.md",
     "societies/01 成员名录/07 惜春早【建模&特效】",
-    "societies/01 成员名录/06 迟风月【剪辑&动画】",
-    "societies/01 成员名录/05 莘柳亦【演唱&播音】",
-    "societies/01 成员名录/04 尽朝歌【编曲&混音】",
-    "societies/01 成员名录/03 缘時雨【设计&绘画】",
     "societies/21 武器图谱/Photoshop.md",
     "societies/21 兵器图谱/Photoshop.md",
     "societies/21 兵器图谱/Markdown.md",
